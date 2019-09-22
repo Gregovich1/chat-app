@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Greg Eckhart",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^2.1.2",
+    "bad-words": "^3.0.3",
+    "badwords-list": "^1.0.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
